@@ -1,123 +1,0 @@
-Dependencies for Project 'Led_Blinker', Target 'Target 1': (DO NOT MODIFY !)
-CompilerVersion: 6180000::V6.18::ARMCLANG
-F (.\main.c)(0x62DDC729)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../MCAL/Inc -I ../Config -I ../Common -I ../App-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/main.o -MD)
-I (..\App\ApplicationLogic.h)(0x62DDC8F0)
-I (..\MCAL\Inc\PORT.h)(0x62DDC576)
-I (..\Common\Std_Types.h)(0x62D1CD40)
-I (..\Common\tm4c123gh6pm_registers.h)(0x62D96901)
-I (..\Common\Common_Macros.h)(0x62D1A5F2)
-I (..\MCAL\Inc\PORT_def.h)(0x62D35468)
-I (..\Config\PORT_CFG.h)(0x62DDC82B)
-I (..\MCAL\Inc\GPT.h)(0x62DDCEFC)
-I (..\Config\GPT_CFG.h)(0x62DC7A09)
-I (..\MCAL\Inc\GPT_REG.h)(0x62DBF0ED)
-I (..\App\Leds.h)(0x62DDBC89)
-I (..\MCAL\Inc\DIO.h)(0x62D363E0)
-I (..\MCAL\Inc\NVIC.h)(0x62D613A0)
-I (..\Config\NVIC_CFG.h)(0x62DC9821)
-I (..\App\ApplicationLogic_CFG.h)(0x62DDBDB6)
-F (..\MCAL\DIO.c)(0x62DDB919)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../MCAL/Inc -I ../Config -I ../Common -I ../App-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/dio_1.o -MD)
-I (..\MCAL\Inc\DIO.h)(0x62D363E0)
-I (..\Common\Std_Types.h)(0x62D1CD40)
-I (..\Common\tm4c123gh6pm_registers.h)(0x62D96901)
-I (..\Common\Common_Macros.h)(0x62D1A5F2)
-I (..\MCAL\Inc\DIO_Def.h)(0x62D36C7B)
-F (..\MCAL\GPT.c)(0x62E0B4C4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../MCAL/Inc -I ../Config -I ../Common -I ../App-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/gpt_1.o -MD)
-I (..\MCAL\Inc\GPT.h)(0x62DDCEFC)
-I (..\Common\tm4c123gh6pm_registers.h)(0x62D96901)
-I (..\Common\Std_Types.h)(0x62D1CD40)
-I (..\Common\Common_Macros.h)(0x62D1A5F2)
-I (..\Config\GPT_CFG.h)(0x62DC7A09)
-I (..\MCAL\Inc\GPT_REG.h)(0x62DBF0ED)
-F (..\MCAL\NVIC.c)(0x62DC8242)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../MCAL/Inc -I ../Config -I ../Common -I ../App-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/nvic_1.o -MD)
-I (..\MCAL\Inc\NVIC.h)(0x62D613A0)
-I (..\Common\tm4c123gh6pm_registers.h)(0x62D96901)
-I (..\Common\Common_Macros.h)(0x62D1A5F2)
-I (..\Common\Std_Types.h)(0x62D1CD40)
-I (..\Config\NVIC_CFG.h)(0x62DC9821)
-F (..\MCAL\PORT.c)(0x62E0B1B5)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../MCAL/Inc -I ../Config -I ../Common -I ../App-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/port_1.o -MD)
-I (..\MCAL\Inc\PORT.h)(0x62DDC576)
-I (..\Common\Std_Types.h)(0x62D1CD40)
-I (..\Common\tm4c123gh6pm_registers.h)(0x62D96901)
-I (..\Common\Common_Macros.h)(0x62D1A5F2)
-I (..\MCAL\Inc\PORT_def.h)(0x62D35468)
-I (..\Config\PORT_CFG.h)(0x62DDC82B)
-F (..\Config\GPT_CFG.h)(0x62DC7A09)()
-F (..\Config\GPT_LCFG.c)(0x62DDC9C1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../MCAL/Inc -I ../Config -I ../Common -I ../App-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/gpt_lcfg_1.o -MD)
-I (..\MCAL\Inc\GPT.h)(0x62DDCEFC)
-I (..\Common\tm4c123gh6pm_registers.h)(0x62D96901)
-I (..\Common\Std_Types.h)(0x62D1CD40)
-I (..\Common\Common_Macros.h)(0x62D1A5F2)
-I (..\Config\GPT_CFG.h)(0x62DC7A09)
-I (..\MCAL\Inc\GPT_REG.h)(0x62DBF0ED)
-I (..\App\ApplicationLogic.h)(0x62DDC8F0)
-I (..\MCAL\Inc\PORT.h)(0x62DDC576)
-I (..\MCAL\Inc\PORT_def.h)(0x62D35468)
-I (..\Config\PORT_CFG.h)(0x62DDC82B)
-I (..\App\Leds.h)(0x62DDBC89)
-I (..\MCAL\Inc\DIO.h)(0x62D363E0)
-I (..\MCAL\Inc\NVIC.h)(0x62D613A0)
-I (..\Config\NVIC_CFG.h)(0x62DC9821)
-I (..\App\ApplicationLogic_CFG.h)(0x62DDBDB6)
-F (..\Config\NVIC_CFG.h)(0x62DC9821)()
-F (..\Config\NVIC_LCFG.c)(0x62DC981D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../MCAL/Inc -I ../Config -I ../Common -I ../App-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/nvic_lcfg_1.o -MD)
-I (..\MCAL\Inc\NVIC.h)(0x62D613A0)
-I (..\Common\tm4c123gh6pm_registers.h)(0x62D96901)
-I (..\Common\Common_Macros.h)(0x62D1A5F2)
-I (..\Common\Std_Types.h)(0x62D1CD40)
-I (..\Config\NVIC_CFG.h)(0x62DC9821)
-F (..\Config\PORT_CFG.h)(0x62DDC82B)()
-F (.\PORT_LCFG.c)(0x62DDCC23)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../MCAL/Inc -I ../Config -I ../Common -I ../App-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/port_lcfg.o -MD)
-I (..\MCAL\Inc\PORT.h)(0x62DDC576)
-I (..\Common\Std_Types.h)(0x62D1CD40)
-I (..\Common\tm4c123gh6pm_registers.h)(0x62D96901)
-I (..\Common\Common_Macros.h)(0x62D1A5F2)
-I (..\MCAL\Inc\PORT_def.h)(0x62D35468)
-I (..\Config\PORT_CFG.h)(0x62DDC82B)
-F (..\Common\Common_Macros.h)(0x62D1A5F2)()
-F (..\Common\Std_Types.h)(0x62D1CD40)()
-F (..\Common\tm4c123gh6pm_registers.h)(0x62D96901)()
-F (..\MCAL\Inc\DIO.h)(0x62D363E0)()
-F (..\MCAL\Inc\DIO_Def.h)(0x62D36C7B)()
-F (..\MCAL\Inc\GPT.h)(0x62DDCEFC)()
-F (..\MCAL\Inc\GPT_REG.h)(0x62DBF0ED)()
-F (..\MCAL\Inc\NVIC.h)(0x62D613A0)()
-F (..\MCAL\Inc\PORT.h)(0x62DDC576)()
-F (..\MCAL\Inc\PORT_def.h)(0x62D35468)()
-F (.\Leds.h)(0x62DDBC89)()
-F (.\Leds.c)(0x62E0B5DB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../MCAL/Inc -I ../Config -I ../Common -I ../App-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/leds.o -MD)
-I (..\App\Leds.h)(0x62DDBC89)
-I (..\MCAL\Inc\DIO.h)(0x62D363E0)
-I (..\Common\Std_Types.h)(0x62D1CD40)
-I (..\Common\tm4c123gh6pm_registers.h)(0x62D96901)
-I (..\Common\Common_Macros.h)(0x62D1A5F2)
-I (..\MCAL\Inc\DIO_Def.h)(0x62D36C7B)
-F (.\ApplicationLogic.c)(0x62E0B12E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../MCAL/Inc -I ../Config -I ../Common -I ../App-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/applicationlogic.o -MD)
-I (..\App\ApplicationLogic.h)(0x62DDC8F0)
-I (..\MCAL\Inc\PORT.h)(0x62DDC576)
-I (..\Common\Std_Types.h)(0x62D1CD40)
-I (..\Common\tm4c123gh6pm_registers.h)(0x62D96901)
-I (..\Common\Common_Macros.h)(0x62D1A5F2)
-I (..\MCAL\Inc\PORT_def.h)(0x62D35468)
-I (..\Config\PORT_CFG.h)(0x62DDC82B)
-I (..\MCAL\Inc\GPT.h)(0x62DDCEFC)
-I (..\Config\GPT_CFG.h)(0x62DC7A09)
-I (..\MCAL\Inc\GPT_REG.h)(0x62DBF0ED)
-I (..\App\Leds.h)(0x62DDBC89)
-I (..\MCAL\Inc\DIO.h)(0x62D363E0)
-I (..\MCAL\Inc\NVIC.h)(0x62D613A0)
-I (..\Config\NVIC_CFG.h)(0x62DC9821)
-I (..\App\ApplicationLogic_CFG.h)(0x62DDBDB6)
-F (.\ApplicationLogic.h)(0x62DDC8F0)()
-F (.\ApplicationLogic_CFG.h)(0x62DDBDB6)()
-F (RTE/Device/TM4C123GH6PM/startup_TM4C123.s)(0x51B6E406)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-Wa,armasm,--pd,"__UVISION_VERSION SETA 537" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"TM4C123GH6PM SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_tm4c123.o)
-F (RTE/Device/TM4C123GH6PM/system_TM4C123.c)(0x62DDCA03)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../MCAL/Inc -I ../Config -I ../Common -I ../App-I./RTE/_Target_1-IC:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/system_tm4c123.o -MD)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
-I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
-I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
-I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F9F3E)
-I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F9F3E)
-I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F9F3E)
-I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F9F3E)
-I (C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F9F3E)
-I (C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6E406)
